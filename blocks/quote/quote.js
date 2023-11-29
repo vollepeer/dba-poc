@@ -7,6 +7,7 @@ export default function decorate(block) {
   block.prepend(icon);
 
   var initial_quote = block[0];
+  console.log(initial_quote);
   var blockquote = document.createElement("blockquote");
   blockquote.innerHTML = initial_quote.innerHTML;
 
