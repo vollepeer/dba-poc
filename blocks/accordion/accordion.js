@@ -64,7 +64,7 @@ export default async function decorate(block) {
       'aria-expanded': 'false',
       'aria-controls': `accordion-panel-${block.dataset.accordionIndex}-${i}`,
       id: `accordion-${block.dataset.accordionIndex}-${i}`,
-    }, createElement('span', 'accordion-title', {}, headerText));
+    }, documentcreateElement('span', 'accordion-title', {}, headerText));
     header.append(button);
     panel.classList.add('accordion-panel');
     panel.setAttribute('id', `accordion-panel-${block.dataset.accordionIndex}-${i}`);
