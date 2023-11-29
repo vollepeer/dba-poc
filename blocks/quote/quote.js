@@ -11,8 +11,8 @@ export default function decorate(block) {
   blockquote.innerHTML = initial_quote.innerHTML;
   blockquote.className = 'aem-testimonial__quote aem-testimonial__quote--large';
 
+  parts[0].remove();
+
   block.prepend(blockquote);
   block.prepend(icon);
-
-  parts[0].remove();
 }
