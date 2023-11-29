@@ -14,5 +14,5 @@ export default function decorate(block) {
   block.prepend(blockquote);
   block.prepend(icon);
 
-  block.removeChild(parts[0]);
+  parts[0].remove();
 }
