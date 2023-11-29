@@ -1,5 +1,6 @@
 export default function decorate(block) {
   const parts = [...block.firstElementChild.children];
+  console.log(parts);
 
   var icon = document.createElement('div');
   icon.className = 'aem-testimonial__icon';
@@ -11,4 +12,6 @@ export default function decorate(block) {
   blockquote.innerHTML = initial_quote.innerHTML;
   parts.appendChild(blockquote);
   parts.removeChild(initial_quote);
+
+
 }
