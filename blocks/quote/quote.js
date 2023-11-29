@@ -12,7 +12,7 @@ export default function decorate(block) {
   blockquote.className = 'aem-testimonial__quote aem-testimonial__quote--large';
 
   var quote_wrapper_1 = document.createElement('div');
-  quote_wrapper.quote_wrapper_1 = 'aem-testimonial__container';
+  quote_wrapper_1.className = 'aem-testimonial__container';
 
   var quote_wrapper_2 = document.createElement('div');
   quote_wrapper_2.className = 'aem-testimonial__wrapper';
