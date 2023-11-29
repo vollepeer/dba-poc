@@ -7,4 +7,10 @@ export default function decorate(block) {
   block.prepend(icon);
 
   console.log(parts[0]);
+
+  var initial_quote = parts[0];
+  var blockquote = document.createElement("blockquote");
+  blockquote.innerHTML = parts[0].innerHTML;
+  block.appendChild(blockquote);
+  block.removeChild(initial_quote);
 }
