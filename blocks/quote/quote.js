@@ -11,7 +11,6 @@ export default function decorate(block) {
   var blockquote = document.createElement("blockquote");
   blockquote.innerHTML = initial_quote.innerHTML;
 
-  block.removeChild(initial_quote);
   block.prepend(blockquote);
   block.prepend(icon);
 }
