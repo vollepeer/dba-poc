@@ -2,8 +2,8 @@ import {
   buildBlock,
   decorateBlock,
   loadBlock,
+  createElement,
 } from '../../scripts/aem.js';
-import { createElement } from '../../scripts/scripts.js';
 
 const toggle = (item) => {
   const trigger = item.querySelector('.accordion-trigger');
