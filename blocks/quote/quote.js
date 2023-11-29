@@ -9,6 +9,7 @@ export default function decorate(block) {
   var initial_quote = parts[0];
   var blockquote = document.createElement("blockquote");
   blockquote.innerHTML = initial_quote.innerHTML;
+  blockquote.className = 'aem-testimonial__quote aem-testimonial__quote--large';
 
   block.prepend(blockquote);
   block.prepend(icon);
