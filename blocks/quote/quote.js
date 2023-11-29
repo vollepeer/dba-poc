@@ -8,6 +8,6 @@ export default function decorate(block) {
 
   var blockquote = document.createElement("blockquote");
   blockquote.innerHTML = parts[0].innerHTML;
-  parts[0].appendChild(blockquote);
-  parts[0].removeChild(initial_quote);
+  parts.appendChild(blockquote);
+  parts.removeChild(initial_quote);
 }
