@@ -232,6 +232,10 @@ main .section {
   padding: 64px 16px;
 }
 
+main .hero h1 {
+  color: rgb(0, 54, 101);
+}
+
 @media (min-width: 600px) {
   main .section {
     padding: 64px 32px;
