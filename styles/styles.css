@@ -232,7 +232,7 @@ main .section {
   padding: 64px 16px;
 }
 
-main .hero h1 {
+main .hero-wrapper .hero h1 {
   color: rgb(0, 54, 101);
 }
 
