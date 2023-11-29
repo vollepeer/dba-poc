@@ -20,7 +20,7 @@ export default function decorate(block) {
   var initial_person = parts[1];
   var person_info = document.createElement("p");
   person_info.innerHTML = initial_person.innerHTML;
-  blockquote.className = 'aem-testimonial__wrapper__name-location';
+  person_info.className = 'aem-testimonial__wrapper__name-location';
 
   parts[0].remove();
   parts[1].remove();
