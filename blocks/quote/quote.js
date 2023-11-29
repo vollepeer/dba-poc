@@ -17,6 +17,8 @@ export default function decorate(block) {
   var quote_wrapper_2 = document.createElement('div');
   quote_wrapper_2.className = 'aem-testimonial__wrapper';
 
+  console.log(parts);
+
   var initial_person = parts[1];
   var person_info = document.createElement("p");
   person_info.innerHTML = initial_person.innerHTML;
