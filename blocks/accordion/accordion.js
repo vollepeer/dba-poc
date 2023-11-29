@@ -2,7 +2,6 @@ import {
   buildBlock,
   decorateBlock,
   loadBlock,
-  createElement,
 } from '../../scripts/aem.js';
 
 const toggle = (item) => {
