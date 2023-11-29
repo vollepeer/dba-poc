@@ -58,9 +58,9 @@ export default async function decorate(block) {
     const buttonSelector = block.classList.contains('sub-accordion') ? 'h3' : 'h2';
     const header = panel.querySelector(buttonSelector);
     row.prepend(header);
-    const headerText = header.innerText;
+    const headerText = header.textContent;
     header.innerHTML = '';
-    const button = createElement('button', 'accordion-trigger', {
+    const button = document.createElement('button', 'accordion-trigger', {
       'aria-expanded': 'false',
       'aria-controls': `accordion-panel-${block.dataset.accordionIndex}-${i}`,
       id: `accordion-${block.dataset.accordionIndex}-${i}`,

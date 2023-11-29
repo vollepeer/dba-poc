@@ -13,7 +13,4 @@ export default function decorate(block) {
 
   block.prepend(blockquote);
   block.prepend(icon);
-
-  console.log(block);
-  console.log(parts);
 }
