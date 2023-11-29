@@ -70,6 +70,14 @@ export function decorateMain(main) {
 }
 
 /**
+ * It will used generate random number to use in ID
+ * @returns 4 digit random numbers
+ */
+export function generateUUID() {
+  return Math.floor(1000 + Math.random() * 9000);
+}
+
+/**
  * Loads everything needed to get to LCP.
  * @param {Element} doc The container element
  */
