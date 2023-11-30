@@ -1,3 +1,7 @@
+main .footnote-wrapper {
+  margin-top: 2em;
+}
+
 main .footnote-wrapper .footnote {
   color: gray;
   font-size: 0.9rem;
