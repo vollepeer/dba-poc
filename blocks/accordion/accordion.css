@@ -10,7 +10,6 @@ main .accordion-item__trigger {
 main .accordion-item__content {
     display: none;
     font-size: var(--body-font-size-xs);
-    background-color: red;
 }
 
 main .accordion-item--active .accordion-item__content{
