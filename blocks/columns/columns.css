@@ -11,6 +11,10 @@
   order: 1;
 }
 
+.columns.center > div > div {
+  text-align: center;
+}
+
 .columns > div > .columns-img-col {
   order: 0;
 }
