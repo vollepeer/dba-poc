@@ -11,14 +11,19 @@ main .hero-container {
 main .hero {
   position: relative;
   padding: 32px;
-  min-height: 300px;
+  //min-height: 200px;
 }
 
-main .hero h1 {
+main .hero-wrapper .hero {
+  position: relative;
+  top: 50%;
+  padding: 70px;
+}
+
+main .hero-wrapper .hero h1 {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  color: white;
 }
 
 main .hero picture {

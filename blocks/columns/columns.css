@@ -15,6 +15,10 @@
   text-align: center;
 }
 
+.columns.rounded .columns-img-col img {
+  border-radius: 20px;
+}
+
 .columns > div > .columns-img-col {
   order: 0;
 }
