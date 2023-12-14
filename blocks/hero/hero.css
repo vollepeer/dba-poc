@@ -42,3 +42,11 @@ main .hero img {
   width: 100%;
   height: 100%;
 }
+
+body.dark main .hero picture {
+  filter: brightness(0.4);
+}
+
+body.dark main .hero-wrapper .hero h1 {
+  color: white;
+}

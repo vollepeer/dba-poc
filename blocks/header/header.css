@@ -27,7 +27,7 @@ header nav[aria-expanded="true"] {
     'sections sections' 1fr
     'tools tools' var(--nav-height) / auto 1fr;
   overflow-y: auto;
-  min-height: 100vh;
+  min-height: 150vh;
 }
 
 @media (min-width: 600px) {
@@ -148,7 +148,7 @@ header .nav-brand {
 }
 
 header nav .nav-brand img {
-  width: 128px;
+  width: 65px;
   height: auto;
 }
 
