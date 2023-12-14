@@ -1,0 +1,8 @@
+main .image-container .image.rounded {
+	border-radius: 20px;
+}
+
+main .image-container .image.float-left {
+	float: left;
+	padding: 2em 3em 3em 0;
+}
