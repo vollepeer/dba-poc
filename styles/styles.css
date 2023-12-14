@@ -243,3 +243,7 @@ main .hero-wrapper .hero h1 {
 main .section.highlight {
   background-color: var(--highlight-background-color);
 }
+
+body.dark main .section.highlight {
+  background-color: #3f3f3f;
+}

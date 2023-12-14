@@ -6,6 +6,11 @@ header .nav-wrapper {
   position: fixed;
 }
 
+body.dark header .nav-wrapper {
+  background-color: #2f2f2f;
+  color: white;
+}
+
 header nav {
   box-sizing: border-box;
   display: grid;
