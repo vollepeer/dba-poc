@@ -46,6 +46,10 @@ body.dark main .hero picture {
   filter: brightness(0.4);
 }
 
+body.darkhero main .hero picture {
+  filter: brightness(0.7);
+}
+
 body.dark main .hero-wrapper .hero h1,
 body.darkhero main .hero-wrapper .hero h1 {
   color: white;
