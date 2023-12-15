@@ -23,6 +23,10 @@ main .quote .aem-testimonial__image {
   max-height: 190px;
 }
 
+main .quote .aem-testimonial__image img {
+  border-radius: 20px;
+}
+
 main .quote .aem-testimonial__wrapper__name-location {
 	font-size: 14px;
     line-height: 20px;
