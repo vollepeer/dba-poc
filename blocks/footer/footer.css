@@ -1,7 +1,7 @@
 footer {
   padding: 2rem;
-  background-color: var(--overlay-background-color);
-  font-size: var(--body-font-size-s);
+  border-top: 1px solid #e6ebf0;
+  font-size: var(--body-font-size-xs);
 }
 
 footer .footer {
@@ -11,4 +11,17 @@ footer .footer {
 
 footer .footer p {
   margin: 0;
+}
+
+footer .footer h4 {
+  color: var(--button-color);
+  margin-top: 0;
+}
+
+footer .footer a {
+  color: #4d7293;
+}
+
+footer .footer a:hover {
+  color: #002b51;
 }
